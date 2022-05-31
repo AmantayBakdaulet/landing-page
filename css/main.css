@@ -1,0 +1,29 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+}
+
+.header {
+	height: 73px;
+	border-bottom: 1 px solid #E5E9F2;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.nav {
+
+}
+
+.logo {
+
+}
+
+.market {
+
+}
