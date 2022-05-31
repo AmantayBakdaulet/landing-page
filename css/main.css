@@ -8,6 +8,12 @@ body {
 	font-family: 'Manrope', sans-serif;
 }
 
+img {
+	display: block;
+}
+
+/* Header */
+
 .header {
 	display: flex;
 	align-items: center;
@@ -19,16 +25,100 @@ body {
 	width: 1110px;
 	margin: 0 auto;
 	display: flex;
+	align-items: center;
 }
 
 .nav {
-
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1;
+	color: #18191F;
 }
 
+.nav-link {
+	margin-right: 32px;
+	color: #18191F;
+	text-decoration: none;
+}
+
+.nav-link:hover{
+	color: #8C30F5;
+}
+
+.nav-link:last-child {
+	margin-right: 0;
+}
+ 
 .logo {
 	margin-right: 40px;
 }
 
 .market {
 	margin-left: auto;
+	display: flex;
+}
+
+.market-item {
+	margin-left: 12px;
+}
+
+
+.market-item:first-child {
+	margin-left: 0;
+}
+
+/* Main */
+
+.main {
+	
+}
+.main-container {
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 197px;
+	padding-bottom: 197px;
+}
+
+.main-content {
+	color: #18191F;
+	width: 540px;
+}
+
+.main-header {
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 1.36;
+}
+
+.main-text {
+	margin-bottom: 32px;
+}
+
+.main-text p{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.78;
+}
+
+.button {
+	display: inline-block;
+	height: 62px;
+	background: #8C30F5;
+	border-radius: 8px;
+	padding: 0px 35px;
+
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 62px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button:hover {
+	opacity: 0.8;
 }
