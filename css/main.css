@@ -3,17 +3,22 @@
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	font-family: 'Manrope', sans-serif;
 }
 
 .header {
+	display: flex;
+	align-items: center;
 	height: 73px;
 	border-bottom: 1px solid #E5E9F2;
 }
 
-.container {
+.header-container {
 	width: 1110px;
 	margin: 0 auto;
+	display: flex;
 }
 
 .nav {
@@ -21,9 +26,9 @@ body {
 }
 
 .logo {
-
+	margin-right: 40px;
 }
 
 .market {
-
+	margin-left: auto;
 }
